@@ -4,7 +4,84 @@
 	},
 	"language": "Solidity",
 	"output": {
-		"abi": [],
+		"abi": [
+			{
+				"inputs": [],
+				"stateMutability": "nonpayable",
+				"type": "constructor"
+			},
+			{
+				"anonymous": false,
+				"inputs": [
+					{
+						"indexed": false,
+						"internalType": "uint256",
+						"name": "anterior",
+						"type": "uint256"
+					},
+					{
+						"indexed": false,
+						"internalType": "uint256",
+						"name": "nuevo",
+						"type": "uint256"
+					}
+				],
+				"name": "CodigoModificado",
+				"type": "event"
+			},
+			{
+				"inputs": [],
+				"name": "dimeDia",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "pure",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "dimeManana",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "getCodigo",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "_codigo",
+						"type": "uint256"
+					}
+				],
+				"name": "setCodigo",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			}
+		],
 		"devdoc": {
 			"kind": "dev",
 			"methods": {},
@@ -32,12 +109,28 @@
 		"remappings": []
 	},
 	"sources": {
+		"@openzeppelin/contracts/utils/Counters.sol": {
+			"keccak256": "0xf0018c2440fbe238dd3a8732fa8e17a0f9dce84d31451dc8a32f6d62b349c9f1",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://59e1c62884d55b70f3ae5432b44bb3166ad71ae3acd19c57ab6ddc3c87c325ee",
+				"dweb:/ipfs/QmezuXg5GK5oeA4F91EZhozBFekhq5TD966bHPH18cCqhu"
+			]
+		},
 		"contracts/4_MiContrato.sol": {
-			"keccak256": "0x6e1f40f0290779fdc7f0bf49c29b29db394987263c2246f893511dca7c173e4a",
+			"keccak256": "0x7dc178eaaf1aeca85506974e8ec8ed93cdae1b12eeeb061ae18ad397d8e973a0",
 			"license": "GPL-3.0",
 			"urls": [
-				"bzz-raw://5745820e0698b13e4352560255f8329f873552de95f8909fb4c519b758553ff3",
-				"dweb:/ipfs/QmRUTykP2gjmX23H141LSZSo6Kh2TYDgTXENef6eMQmxcP"
+				"bzz-raw://41a19ffcdeea269c07f15480abd00968dc3a6f381c9c07186157bf7e977cbf47",
+				"dweb:/ipfs/QmNwxhodKVmSkcEErKytWgt9AEwwgs75yEMuh3khGmEWrN"
+			]
+		},
+		"hardhat/console.sol": {
+			"keccak256": "0x7434453e6d3b7d0e5d0eb7846ffdbc27f0ccf3b163591263739b628074dc103a",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://49355f780520494d1d5a0f01858385e51bb5280ce0ecfb960f16995065dca395",
+				"dweb:/ipfs/QmSwJ6C5QLz6xKeQZS8wbwjU1KxRFTYfwbGmtzisd5sRW4"
 			]
 		}
 	},

@@ -1,0 +1,98 @@
+{
+	"compiler": {
+		"version": "0.8.30+commit.73712a01"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [],
+				"stateMutability": "nonpayable",
+				"type": "constructor"
+			},
+			{
+				"inputs": [],
+				"name": "devolverEspecie",
+				"outputs": [
+					{
+						"internalType": "string",
+						"name": "",
+						"type": "string"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "especie",
+				"outputs": [
+					{
+						"internalType": "string",
+						"name": "",
+						"type": "string"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "hacerSonido",
+				"outputs": [
+					{
+						"internalType": "string",
+						"name": "",
+						"type": "string"
+					}
+				],
+				"stateMutability": "pure",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/11_Hijo.sol": "Perro"
+		},
+		"evmVersion": "prague",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/10_Padre.sol": {
+			"keccak256": "0x300f805e303715482f5d58db5bbf41e79614c0e491b89e1d0d7e17d72826ea69",
+			"license": "GPL-3.0",
+			"urls": [
+				"bzz-raw://429c4f0f7fb5a9eddf4d7cb6bca0133e3d77c3261a7aa9ffb45ac0054c2ab007",
+				"dweb:/ipfs/QmY16YLSuSY9V37b1kTVex74Qtznf14X5XwSr47sj9yR3x"
+			]
+		},
+		"contracts/11_Hijo.sol": {
+			"keccak256": "0x995fb9abac13dd591d50568dd36bbe2b14712b7ced3b975b45851fbc55f0bc45",
+			"license": "GPL-3.0",
+			"urls": [
+				"bzz-raw://00e4dc0320dbe32b0c2d647e8918be01fd508b74c8daaf89bf6c9207454f9397",
+				"dweb:/ipfs/QmfCVeiLKtDbWQ2HH9czUCWwcio9jtq4X5AKBCDfXm6asb"
+			]
+		}
+	},
+	"version": 1
+}

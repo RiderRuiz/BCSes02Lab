@@ -1,0 +1,70 @@
+{
+	"compiler": {
+		"version": "0.8.30+commit.73712a01"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [],
+				"name": "donar",
+				"outputs": [],
+				"stateMutability": "payable",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "getBalance",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"stateMutability": "payable",
+				"type": "receive"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/7_WhereBasic.sol": "RecibirYMostrarBalance"
+		},
+		"evmVersion": "prague",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/7_WhereBasic.sol": {
+			"keccak256": "0x7822b07976db568daa2bd0a13b504dcab4915a0f9419c41028fe53e5d92a9c47",
+			"license": "GPL-3.0",
+			"urls": [
+				"bzz-raw://97bba28538eeb7670bcc6a9023b0b292bd829cf6fbfd9b7269461aa6c107ef44",
+				"dweb:/ipfs/QmTThczarBWpY4BqThxqXUEnx4UcrBpuU1R7JjfDLrM8Qp"
+			]
+		}
+	},
+	"version": 1
+}

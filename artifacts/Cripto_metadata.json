@@ -1,0 +1,89 @@
+{
+	"compiler": {
+		"version": "0.8.30+commit.73712a01"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [],
+				"stateMutability": "nonpayable",
+				"type": "constructor"
+			},
+			{
+				"anonymous": false,
+				"inputs": [
+					{
+						"indexed": false,
+						"internalType": "address",
+						"name": "from",
+						"type": "address"
+					},
+					{
+						"indexed": false,
+						"internalType": "address",
+						"name": "to",
+						"type": "address"
+					},
+					{
+						"indexed": false,
+						"internalType": "bytes",
+						"name": "mensajeEncriptado",
+						"type": "bytes"
+					}
+				],
+				"name": "MensajeEncriptado",
+				"type": "event"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "bytes",
+						"name": "_textoCifrado",
+						"type": "bytes"
+					}
+				],
+				"name": "enviarMensaje",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/6.Cripto.sol": "Cripto"
+		},
+		"evmVersion": "prague",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/6.Cripto.sol": {
+			"keccak256": "0xb26c10b511b62d7f0a8e2255a52472ab687fd7ee8d35448bc0eee4030b58e069",
+			"license": "GPL-3.0",
+			"urls": [
+				"bzz-raw://e1c74995220680aa65cc3a2781e2657ff975c37df05ce5afee542bd90564f975",
+				"dweb:/ipfs/QmfHp2cq6odpux3eVSWXkUk3XsaJ2GfcsLQ8JdWpyqKSbW"
+			]
+		}
+	},
+	"version": 1
+}
