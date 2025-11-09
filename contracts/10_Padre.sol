@@ -16,4 +16,8 @@ contract Animal {
     function devolverEspecie() public view returns (string memory) {
         return string(abi.encodePacked("Especie: ", especie)); 
     }
+
+    function getEdad() internal pure returns (uint256){
+        return 1;
+    }
 }

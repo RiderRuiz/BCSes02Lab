@@ -10,5 +10,8 @@ contract Perro is Animal {
     function hacerSonido() public pure override returns (string memory) {
         return "guau guau";    
     }
+    function devolverEdad() public pure returns (uint){
+        return getEdad();
+    }
 
 }
