@@ -4,7 +4,7 @@ pragma solidity >=0.8.2 <0.9.0;
 import "@openzeppelin/contracts/access/Ownable.sol";
 
 contract CalculadoraNotas {
-/*
+
     // Ejemplo: 30% practica, 30% teoria, 40% proyecto
     function calcularNotaFinal(uint256 practica, uint256 teoria, uint256 proyecto) 
                                                     external pure returns (uint256) {        
@@ -12,13 +12,13 @@ contract CalculadoraNotas {
         return notaFinal;
     }
 
-    */
-
+    
+/*
     function calcularNotaFinal(uint256 practica, uint256 teoria, uint256 proyecto) 
                                                     external pure returns (uint256) {        
         uint256 notaFinal = (practica * 10 + teoria * 10 + proyecto * 80) / 100;
         return notaFinal;
-    }
+    }*/
 
 }
 
